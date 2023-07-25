@@ -1,0 +1,28 @@
+type: choice
+is_multiple_choice: false
+options:
+- text: public static void method()
+- text: public static void method() throw Exception
+- text: public static void method() throws Exception
+- text: public static Exception method()
+files:
+- name: src/Task.java
+  visible: true
+  text: |
+    // You can experiment here, it won’t be checked
+
+    public class Task {
+      public static void main(String[] args) {
+        // put your code here
+      }
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/2816#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: Mon, 12 Sep 2022 21:52:52 UTC
+record: -1
+selected_options:
+- 2
+local_check: false
